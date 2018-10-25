@@ -29,7 +29,7 @@ const RootStack = createStackNavigator(
   }
 );
 
-const TabNavigator = createTabNavigator(
+const TabNavigator = createBottomTabNavigator(
   {
     Home: RootStack,
     Settings: SettingsStack,
